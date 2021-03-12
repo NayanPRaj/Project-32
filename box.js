@@ -1,3 +1,4 @@
+
 class Box {
   constructor(x, y, width, height) {
     var options = {
@@ -34,9 +35,9 @@ class Box {
     }
   }
 
-  score() {
-    if(this.Visibility < 0 && this.Visibility > -105){
-        score = score + 1;
+ score(){
+    if(this.Visibility<0&& this.Visibility>-105){
+      score++;
     }
   }
 }
